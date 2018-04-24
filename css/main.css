@@ -92,8 +92,23 @@ h4 span{
 	margin-bottom: 40px;
 }
 
+.figaro {
+    font-family: 'Italianno', cursive;
+    font-size: 113px;
+    color: #aee0df;
+}
+
+.contactPhone {
+    /* margin-left: -302px; */
+    padding-bottom: 21px;
+}
+
 /* Custom Button Styles */
 
+.btn-primary {
+    background-color: #459f9f;
+    border-color: unset;
+}
 
 .btn-light {
     border-radius: 0;
