@@ -110,6 +110,12 @@ h4 span{
     border-color: unset;
 }
 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #df614b;
+    border-color: #459f9f;
+}
+
 .btn-light {
     border-radius: 0;
     color: #5b3b2c;
