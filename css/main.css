@@ -54,14 +54,16 @@ h1 span{
 
 
 h2{
-	color: #ca473d;
+    /* color: #ca473d; */
+    color: #E66059;
 	font-family: 'Raleway', sans-serif;
 	font-size: 25px;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 h3{
-	color: #ca473d;
+    /* color: #ca473d; */
+    color: #E66059;
 	font-family: 'Playfair Display', serif;
 	font-size: 30px;
 	font-weight: 400;
