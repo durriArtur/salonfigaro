@@ -875,7 +875,22 @@ h6 span{
    margin-top: 16px;
 }
 
+.impressum {
+    padding-top: 125px;
+	padding-bottom: 139px;
+    background-color: #df614b;
+}
 
+#impressum a {
+    color: #000;
+}
+
+#impressum h2 {
+    color: #FFF;
+    font-family: unset;
+    font-size: 16px;
+    font-weight: 700;
+}
 /* Responsive */
 
 
