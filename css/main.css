@@ -21,6 +21,14 @@ p {
 	text-align: center;
 }
 
+.header-container {
+    background: rgba(50, 50, 50, 0.8);
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
 
 .text-vertical-center {
     display: table-cell;
@@ -47,7 +55,7 @@ h1 span{
 
 h2{
 	color: #ca473d;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 25px;
 	font-weight: 400;
 }
@@ -60,7 +68,8 @@ h3{
 }
 
 h3 span{
-	font-size: 21px;
+    /* font-size: 21px; */
+    font-size: 30px;
 }
 
 
@@ -95,6 +104,7 @@ h4 span{
 .figaro {
     font-family: 'Italianno', cursive;
     font-size: 113px;
+    /*color: #5b3b2c;*/
     color: #aee0df;
 }
 

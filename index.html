@@ -26,7 +26,7 @@
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic' rel='stylesheet'>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -50,21 +50,21 @@
             <li>
                 <a href="#top">Home</a>
             </li>
-            <li>
+            <!-- <li>
                 <a href="#about">About us</a>
             </li>
             <li>
                 <a href="#services">Services</a>
-            </li>
+            </li> -->
             <!-- <li>
                 <a href="#price">Price list</a>
             </li>
             <li>
                 <a href="#look">Lookbook</a>
             </li> -->
-            <li>
+            <!-- <li>
                 <a href="#crew">The Crew</a>
-            </li>
+            </li> -->
             <li>
                 <a href="#contact">Contact</a>
             </li>
@@ -75,8 +75,10 @@
 
     <!-- Header -->
     <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1 class="wow fadeIn"><span class="figaro">Figaro</span> <span>Friseur Salon </span></h1>
+        <div class="text-vertical-center header-container">
+            <h1 class="wow fadeIn"><span class="figaro">Figaro</span></h1>
+            <h3><span>Friseur Salon</span></h3>
+            <h2><span class="rotating">Inh. Diana Sperling, Klinik Dr. Baumstark, Viktoriaweg 18 - 61350 Bad Homburg</span></h2>
             <!-- <h2 class="wow fadeIn">Diana Sperling</h2> -->
              <a href="#about" class="btn btn-circle page-scroll">
                 <i class="fa fa-angle-double-down animated"></i>
@@ -87,12 +89,12 @@
 
 
     <!-- About -->
-    <section id="about" class="about">
+    <!-- <section id="about" class="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3 class="wow fadeIn">About us <span>------ <i class="fa fa-scissors"></i></span></h3>
-                    <p class="lead">Figaro  Salon is a hairdressing studio based in London, UK. We offer <span class="text">SUPERB QUALITY OF SERVICE</span>. We are recognized worldwide
+                    <p class="lead">Figaro Salon is a hairdressing studio based in London, UK. We offer <span class="text">SUPERB QUALITY OF SERVICE</span>. We are recognized worldwide
                     and have <span class="text">INTERNATIONALLY TRAINED TEAM OF PROFESSIONALS.</span>
                     </p>
                     
@@ -103,15 +105,13 @@
                     </div>
                 </div>
             </div>
-            <!-- /row -->
         </div>
-        <!-- /container -->
-    </section>
+    </section> -->
     <!-- /about -->
 
 
     <!-- Services -->
-    <section id="services" class="services bg-services">
+    <!-- <section id="services" class="services bg-services">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
@@ -159,25 +159,21 @@
                             </div>
                         </div>
                     </div>
-                    <!-- /row (nested) -->
                 </div>
-                <!-- /col-lg-10 -->
             </div>
-            <!-- /row -->
         </div>
-        <!-- /container -->
-    </section>
+    </section> -->
     <!-- /services -->
 
 
    
     <!-- Banner1 -->
-    <div class="banner1">
-    </div>
+    <!-- <div class="banner1">
+    </div> -->
     <!-- /banner1 -->
 
     <!-- Team -->
-    <section id="crew" class="crew">
+    <!-- <section id="crew" class="crew">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
@@ -194,7 +190,7 @@
                                <div class="hr1"></div>
                                <h3>From classic looks to one-of-a-kind one time works of art.</h3>
                              </div>
-                           </div><!-- /col-md-4 -->
+                           </div>
                    
                            <div class="col-md-6 wow zoomIn">
                             <div class="feature-wrap">
@@ -205,15 +201,10 @@
                              <div class="hr1"></div>
                              <h3>From classic looks to one-of-a-kind one time works of art.</h3>
                             </div>
-                           </div><!-- /col-md-4 -->
+                           </div>
 
                         </div>
-                        <!-- /features -->
                      </div>
-                     <!-- /row -->
-                     
-                     
-                     <!-- Testimonials -->
                      <div class="row">
                         <div class="testimonials-badge"></div>
     	                  <div class="col-md-10 col-md-offset-1">
@@ -240,19 +231,13 @@
 					             </blockquote>
 				               </div>
 			                </div>
-                            <!-- /row testimonials -->
 		                  </div>
-                          <!-- /col -->	
 	                 </div>
-                     <!-- /row -->
                      
                 </div>
-                <!-- /col-lg-10 -->
             </div>
-            <!-- /row -->
         </div>
-        <!-- /container -->
-    </section>
+    </section> -->
     <!-- /team -->
 
     
@@ -363,7 +348,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    
+    <script src="js/morphext/morphext.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script>
     // Closes the sidebar menu
@@ -394,6 +379,12 @@
             }
         });
     });
+
+    $(".rotating").Morphext({
+        animation: "flipInX",
+        separator: ",",
+        speed: 3000
+      });
     </script>
     
     <!-- Wow JavaScript -->
@@ -409,6 +400,7 @@
 
     <!-- Google Map JavaScript -->
     <script src="js/app.js"></script>
+
     
      <!-- Smooth scroll JS -->
     <script src="js/smoothscroll.js"></script>
